@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<precice-configuration>
+  <mesh name="MeshOne" dimensions="3">
+    <use-data name="Missing" />
+  </mesh>
+</precice-configuration>

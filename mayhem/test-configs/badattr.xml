@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<precice-configuration>
+  <data:scalar name="Data" />
+  <mesh name="MeshOne" dimensionz="3">
+    <use-data name="Data" />
+  </mesh>
+</precice-configuration>

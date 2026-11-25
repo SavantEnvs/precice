@@ -1,0 +1,10 @@
+project: savantenvs/precice
+target: fuzz_check_config
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_check_config/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_check_config
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_check_config/fuzz_check_config.dict
